@@ -15,3 +15,6 @@ try {
 } catch (error) {
 	console.error(error);
 }
+
+export const WEATHER_API_URL = "https://api.openweathermap.org/data/2.5"
+export const WEATHER_API_KEY = "1bd486d26b20268f72c717dca4bfbab1";
